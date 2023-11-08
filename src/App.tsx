@@ -1,10 +1,11 @@
-import './App.css'
+import './styles/styles.scss'
+import { Login } from './components'
 
 function App() {
 
   return (
     <>
-      <h1>hola mundo</h1>
+      <Login/>
     </>
   )
 }
